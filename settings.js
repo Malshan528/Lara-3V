@@ -39,5 +39,5 @@ WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
-OMDB_API_KEY: process.env.OMDB_API_KEY || "omdbapi.com", // omdbapi.com
+OMDB_API_KEY: process.env.OMDB_API_KEY || "", // omdbapi.com
 };

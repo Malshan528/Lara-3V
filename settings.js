@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "fZBHha5B#QeRpglszQgqgZ5Abn3rSG0HGL_jXUKSLzWuq0sj20a8", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "jVxgiRjT#nmpJUTfGvc8QVLTVv160eGNYj9BkalrD7vcxi0TV6Mo", // Add your session id
 PREFIX: process.env.PREFIX || ".",
 MODE: process.env.MODE || "inbox",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
@@ -33,11 +33,12 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 READ_CMD: process.env.READ_CMD || "true",
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 ANTI_VV: process.env.ANTI_VV || "true",
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "false",
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "same",  // inbox | same
 WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
-OMDB_API_KEY: process.env.OMDB_API_KEY || "", // omdbapi.com
+OMDB_API_KEY: process.env.OMDB_API_KEY || "omdbapi.com", // omdbapi.com
+    _Dpdownload: process.env.divorcepicture || "ture",
 };

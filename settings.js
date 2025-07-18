@@ -7,7 +7,7 @@ function convertToBool(text, fault = 'true') {
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "fZBHha5B#QeRpglszQgqgZ5Abn3rSG0HGL_jXUKSLzWuq0sj20a8", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-MODE: process.env.MODE || "private",  //public | private | inbox | group
+MODE: process.env.MODE || "inbox",  //public | private | inbox | group
 OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
 DEV: process.env.DEV || "94779062397",
 LANG: process.env.LANG || "SI", // EN | SI
@@ -39,5 +39,5 @@ WELCOME: process.env.WELCOME || "true",
 GOODBYE: process.env.GOODBYE || "true",
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 INBOX_BLOCK: process.env.INBOX_BLOCK || "false",
-OMDB_API_KEY: process.env.OMDB_API_KEY || "76cb7f39", // omdbapi.com
+OMDB_API_KEY: process.env.OMDB_API_KEY || "omdbapi.com", // omdbapi.com
 };
